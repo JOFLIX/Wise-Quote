@@ -9,6 +9,7 @@ import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import {FormsModule} from '@angular/forms';
 import { VoteComponent } from './vote/vote.component';
+import {TimeAgoPipe} from 'time-ago-pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,11 +18,13 @@ import { VoteComponent } from './vote/vote.component';
     HighlightDirective,
     DateCountPipe,
     QuoteFormComponent,
-    VoteComponent
+    VoteComponent,
+    TimeAgoPipe
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

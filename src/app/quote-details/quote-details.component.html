@@ -1,7 +1,11 @@
 <div class="card-body card-detail">
   <p>{{quote.description}}</p>
 </div>
+<div class="card-body">
+  <p>This quote was posted {{quote.completeDate|timeAgo}}</p>
 
-<p>This quote was posted {{quote.completeDate|dateCount}} days</p>
-<!-- <button (click) = 'quoteComplete(true)'> Complete </button> -->
-<button (click) = 'quoteDelete(true)'>Delete Quote</button>
+  <app-vote></app-vote>
+  <button class="btn btn-success" (click)='quoteDelete(true)' >Delete Quote</button>
+  <!-- <button type="button" name="button" button> -->
+
+</div>
