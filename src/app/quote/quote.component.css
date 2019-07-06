@@ -1,0 +1,7 @@
+.my-quotes-page{
+  background-image: url(src/assets/wisdomtwo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  text-align: center;
+}
