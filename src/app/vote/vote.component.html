@@ -1,6 +1,6 @@
 
 <!-- gives prints the votecount -->
 <p>
-    <button class="col btn btn-success" (click)="upVote()">{{uvotes}}<i class="fa fa-thumbs-up"></i></button>
-    <button class="col btn btn-danger" (click)="downVote()">{{dvotes}}<i class="fa fa-thumbs-down"></i></button>
+    <button class="col btn btn-success " (click)="upVote()"><span class="badge"><b>Like</b></span>{{uvotes}}</button>
+    <button class="col btn btn-danger" (click)="downVote()"><span class="badge"><b>Unlike</b></span>{{dvotes}}</button>
   </p>
