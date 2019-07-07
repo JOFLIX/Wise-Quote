@@ -9,10 +9,11 @@
 
     <div class="col-5 my-quotes-page" >
       <ul>
-        <div class="card" id="crd" *ngFor='let quote of quotes;let i = index' >
-
-          <li appHighlight>{{quote.name}},{{quote.completeDate|date|lowercase}}</li>
-          <button  (click)='toogleDetails(i)' class="btn btn-danger">Toogle Details</button>
+        <div class="card" id="crd" *ngFor='let quote of quotes;let i = index' style="justify-content:space-arround; padding:2%">
+        <div class="card-title section">
+          <li appHighlight>Author: {{quote.name}} <br> Date Published ; {{quote.completeDate|date|lowercase}}</li>
+        </div>
+          <button  (click)='toogleDetails(i)' class="btn btn-danger">Toogle Quote Details</button>
           <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='deleteQuote($event, i)'></app-quote-details>
 
 
