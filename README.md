@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
-## Quotes Developer
+## wiseQuotes Developer
 Joflix Ooko Owuor
 
 ## Project name
@@ -26,7 +26,7 @@ Internet connection
 Angular and node installations
 
 ## Link to deployed page:
-<https://JOFLIX.github.io/Wise-Quote/>
+<https://JOFLIX.github.io/Wise-Quotes/>
 
 ## Technologies used
 Angular8, HTML5, CSS3, Bootstrap v4.
