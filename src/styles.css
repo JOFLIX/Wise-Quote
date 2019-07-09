@@ -1,11 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 /* *{background-color: green;} */
-@import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Allura|Great+Vibes|Italianno|Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Caveat:400,700|Cookie|Courgette|Kaushan+Script|Merienda:400,700|PT+Sans+Caption:400,700|Sacramento|Satisfy&display=swap');
 
 body{
-  background-image: url(src/assets/1_J3s7YUTQjQneRoxcT_Qsxw.jpeg);
+  background-image: url(./assets/1_J3s7YUTQjQneRoxcT_Qsxw.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
