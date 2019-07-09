@@ -1,6 +1,6 @@
 .card-detail{
   background-image:url(src/assets/brat.jpg);
-  color:white;
+  color:black;
   border: 2px solid transparent;
   border-radius:3%;
 }
